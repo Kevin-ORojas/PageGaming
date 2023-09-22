@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         blueClaro: "#1d4ed8",
-        colorCnt: "#d97706",
+        colorCnt: "#DC7000",
       },
       fontFamily: {
         custom: ["Merriweather", "serif"],
