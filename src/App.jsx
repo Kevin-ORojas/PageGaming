@@ -7,12 +7,12 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className="bg-blueClaro min-h-screen">
       <Router>
         <Navbar />
         <AppRoutes />
       </Router>
-    </>
+    </div>
   );
 }
 
