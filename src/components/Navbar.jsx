@@ -2,34 +2,58 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState(null);
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
 
-  const handleLinkClick = (link) => {
-    setActiveLink(link);
+  const toggleMenu = () => {
+    setIsMenuVisible(!isMenuVisible);
   };
+
   return (
-    <nav className="text-md px-12 p-8 h-full w-full">
-      <section className="flex justify-between">
-        <div className="flex items-center text-2xl uppercase font-bold text-whiteco">Logo</div>
-        <ul className="flex gap-12 items-center text-white text-sm">
-          <li className="mr-6 hover:border-b-2 hover:border-blue-500 focus:border-b-2 focus:border-blue-500">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="mr-8 hover:border-b-2 hover:border-blue-500 focus:border-b-2 focus:border-blue-500">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="mr-8 hover:border-b-2 hover:border-blue-500 focus:border-b-2 focus:border-blue-500">
-            <Link to="/portfolio">Portfolio</Link>
-          </li>
-          <li className="mr-8 hover:border-b-2 hover:border-blue-500 focus:border-b-2 focus:border-blue-500">
-            <Link to="/news">News</Link>
-          </li>
-          <li className=" bg-colorCnt w-[95px] h-7 flex justify-center items-center  rounded-md ">
-            <Link to="/contact">Contact us</Link>
-          </li>
-        </ul>
-      </section>
-    </nav>
+    <header className="bg-VeryGray z-50 flex justify-between md:justify-around p-4 px-6 relative  items-center">
+      <div className="text-2xl uppercase font-bold">Logo</div>
+      <i
+        onClick={toggleMenu}
+        className={`bx ${
+          isMenuVisible ? "bx-x" : "bx-menu"
+        } text-3xl cursor-pointer md:hidden`}
+      ></i>
+
+      <nav
+        className={`items-center absolute top-full -left-full w-[100%] grid gap-4 px-2 text-xl ${
+          isMenuVisible ? "left-0" : "-left-full"
+        }  duration-200 md:static md:flex md:w-auto p-5 place-content-center place-items-center rounded-sm bg-black text-white md:bg-blueClaro`}
+      >
+        
+          <ul className="flex flex-col items-center md:flex md:flex-row gap-8">
+            <li>
+              <Link to="/" className="hover:text-blue-500">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className=" hover:text-blue-500">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/portfolio" className="md:mr-4  hover:text-blue-500">
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link to="/news" className="hover:text-blue-500">
+                News
+              </Link>
+            </li>
+            <li className="bg-colorCnt w-[95px] h-7 flex justify-center items-center rounded-md">
+              <Link to="/contact" className="text-white">
+                Contact us
+              </Link>
+            </li>
+          </ul>
+        
+      </nav>
+    </header>
   );
 };
 

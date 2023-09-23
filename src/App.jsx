@@ -7,9 +7,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="bg-blueClaro min-h-screen">
+    <div className="bg-blueClaro min-h-screen h-full">
       <Router>
-        <Navbar />
+          <Navbar />
         <AppRoutes />
       </Router>
     </div>
