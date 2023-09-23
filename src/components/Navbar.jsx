@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="text-md px-12 p-8 h-full w-full">
       <section className="flex justify-between">
-        <div className="flex items-center text-2xl uppercase font-bold text-white">Logo</div>
+        <div className="flex items-center text-2xl uppercase font-bold text-whiteco">Logo</div>
         <ul className="flex gap-12 items-center text-white text-sm">
           <li className="mr-6 hover:border-b-2 hover:border-blue-500 focus:border-b-2 focus:border-blue-500">
             <Link to="/">Home</Link>
