@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-VeryGray z-50 flex justify-between md:justify-around p-4 px-6 relative  items-center">
-      <div className="text-2xl uppercase font-bold">Logo</div>
+      <div className="text-2xl uppercase font-bold text-white">Logo</div>
       <i
         onClick={toggleMenu}
         className={`bx ${
@@ -36,7 +36,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/portfolio" className="md:mr-4  hover:text-blue-500">
+              <Link to="/portfolio" className="md:mr-12  hover:text-blue-500">
                 Portfolio
               </Link>
             </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 News
               </Link>
             </li>
-            <li className="bg-colorCnt w-[95px] h-7 flex justify-center items-center rounded-md">
+            <li className="bg-colorCnt w-[115px] h-8 flex justify-center items-center rounded-md">
               <Link to="/contact" className="text-white">
                 Contact us
               </Link>

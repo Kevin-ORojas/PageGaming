@@ -21,7 +21,7 @@ const Home = () => {
 
           <div>
             <button
-              className="text-left text-white bg-blue-500 hover:bg-blue-700 text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-md"
+              className="text-left text-white bg-colorCnt hover:bg-blue-700 text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-md"
               type="submit"
             >
               Get more details
@@ -46,18 +46,21 @@ const Home = () => {
             <h2 className="text-2xl font-bold text-white">
               Currently Trending games
             </h2>
-            <button className="h-10 w-24 rounded-md bg-blue-400 uppercase text-white font-bold">
+            <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
               see all
             </button>
           </div>
-          <div className="flex gap-12">
+          <div className="flex gap-24">
             <div>
               <img
                 className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl "
                 src="/public/images/img1.jpg"
                 alt=""
               />
-              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+              <p className="mt-4 text-white text-center font-bold">
+                <i className="bx bxs-hot mr-2"></i>
+                40 follower
+              </p>
             </div>
             <div>
               <img
@@ -65,7 +68,10 @@ const Home = () => {
                 src="/public/images/img2.jpg"
                 alt=""
               />
-              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+              <p className="mt-4 text-white text-center font-bold">
+                <i className="bx bxs-hot mr-2"></i>
+                40 follower
+              </p>
             </div>
             <div>
               <img
@@ -73,7 +79,10 @@ const Home = () => {
                 src="/public/images/img3.jpg"
                 alt=""
               />
-              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+              <p className="mt-4 text-white text-center font-bold">
+                <i className="bx bxs-hot mr-2"></i>
+                40 follower
+              </p>
             </div>
             <div>
               <img
@@ -81,7 +90,11 @@ const Home = () => {
                 src="/public/images/img4.jpg"
                 alt=""
               />
-              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+
+              <p className="mt-4 text-white text-center font-bold">
+                <i className="bx bxs-hot mr-2"></i>
+                40 follower
+              </p>
             </div>
           </div>
         </article>
