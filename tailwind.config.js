@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        blueClaro: "#1d4ed8",
+        blueClaro: "#4338ca",
         colorCnt: "#DC7000",
       },
       fontFamily: {
