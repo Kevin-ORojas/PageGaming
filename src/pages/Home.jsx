@@ -46,29 +46,43 @@ const Home = () => {
             <h2 className="text-2xl font-bold text-white">
               Currently Trending games
             </h2>
-            <button className="h-10 w-24 rounded-md bg-blue-400 uppercase text-white font-bold">see all</button>
+            <button className="h-10 w-24 rounded-md bg-blue-400 uppercase text-white font-bold">
+              see all
+            </button>
           </div>
           <div className="flex gap-12">
-            <img
-              className="w-[250px] h-auto object-cover rounded-xl shadow-2xl "
-              src="/public/images/img1.jpg"
-              alt=""
-            />
-            <img
-              className="w-[250px] h-auto object-cover rounded-xl shadow-2xl"
-              src="/public/images/img2.jpg"
-              alt=""
-            />
-            <img
-              className="w-[250px] h-auto object-cover rounded-xl shadow-2xl"
-              src="/public/images/img3.jpg"
-              alt=""
-            />
-            <img
-              className="w-[250px] h-auto object-cover rounded-xl shadow-2xl"
-              src="/public/images/img4.jpg"
-              alt=""
-            />
+            <div>
+              <img
+                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl "
+                src="/public/images/img1.jpg"
+                alt=""
+              />
+              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+            </div>
+            <div>
+              <img
+                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl"
+                src="/public/images/img2.jpg"
+                alt=""
+              />
+              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+            </div>
+            <div>
+              <img
+                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl"
+                src="/public/images/img3.jpg"
+                alt=""
+              />
+              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+            </div>
+            <div>
+              <img
+                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl"
+                src="/public/images/img4.jpg"
+                alt=""
+              />
+              <p className="mt-4 text-white text-center font-bold">40 follower</p>
+            </div>
           </div>
         </article>
       </section>
