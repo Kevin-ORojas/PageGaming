@@ -114,7 +114,11 @@ const Home = () => {
       <section className="md:h-[750px]">
         <article className="flex justify-start items-center ">
           <div className="shadow-2xl drop-shadow-lg">
-            <img className="w-full h-full object-cover" src="./images/img-4.png" alt="" />
+            <img
+              className="w-full h-full object-cover"
+              src="./images/img-4.png"
+              alt=""
+            />
           </div>
         </article>
       </section>
@@ -127,10 +131,25 @@ const Home = () => {
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="flex justify-center py-24 w-full">
-          <p className="absolute text-white z-10 text-2xl text-center md:w-[700px] ">
+          <p className="absolute text-white z-10 text-xl text-center md:w-[700px] leading-9 font-semibold ">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
             mollitia accusamus ipsam? Aperiam, eaque iure.
           </p>
+        </div>
+
+        <div className="flex justify-center  w-full">
+          <p className="absolute text-white z-10 text-md text-center md:w-[700px] leading-9">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+            mollitia accusamus ipsam? Aperiam, eaque iure.
+          </p>
+        </div>
+
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            className="relative text-white"
+            src="./images/eclips.png"
+            alt=""
+          />
         </div>
       </section>
     </main>
