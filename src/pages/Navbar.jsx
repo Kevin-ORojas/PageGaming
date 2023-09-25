@@ -45,7 +45,7 @@ const Navbar = () => {
                 News
               </Link>
             </li>
-            <li className="bg-colorCnt w-[115px] h-8 flex justify-center items-center rounded-md">
+            <li className="bg-colorCnt hover:animate-pulse w-[115px] h-8 flex justify-center items-center rounded-md">
               <Link to="/contact" className="text-white">
                 Contact us
               </Link>

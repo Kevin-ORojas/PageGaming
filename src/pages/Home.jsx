@@ -3,10 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <main className="min-h-screen flex flex-col justify-center items-center">
-      <article className="md:grid md:grid-cols-2 md:gap-24 p-14git">
+      <article className="md:grid md:grid-cols-2 md:gap-24 p-14">
         <section className="flex flex-col justify-center items-center">
           <div className="w-full md:w-[450px] text-center">
-            <p className="mx-auto text-colorCnt font-semibold text-left mb-4">
+            <p className="mx-auto text-colorCnt animate-bounce font-semibold text-left mb-4">
               Proved By prodesigner
             </p>
             <h1 className="text-white text-xl md:text-5xl lin text-left leading-normal font-bold md:text-left md:leading-normal md:font-bold">
@@ -21,7 +21,7 @@ const Home = () => {
 
           <div>
             <button
-              className="text-left text-white bg-colorCnt hover:bg-blue-700 text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-md"
+              className="text-left text-white bg-colorCnt hover:animate-pulse text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-md"
               type="submit"
             >
               Get more details
