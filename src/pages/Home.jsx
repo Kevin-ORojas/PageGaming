@@ -42,7 +42,7 @@ const Home = () => {
 
       <section className="md:flex md:flex-col md:justify-around md:items-center md:my-4 md:px-8 md:h-[600px] ">
         <article className="">
-          <div className="md:flex md:justify-between py-12">
+          <div className="md:flex md:justify-between items-center py-4">
             <h2 className="md:text-2xl font-bold text-white">
               Currently Trending games
             </h2>
@@ -53,9 +53,9 @@ const Home = () => {
             </div>
           </div>
           <div className="md:flex md:gap-24">
-            <div>
+            <div className="">
               <img
-                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl "
+                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl "
                 src="/public/images/img1.jpg"
                 alt=""
               />
@@ -66,7 +66,7 @@ const Home = () => {
             </div>
             <div>
               <img
-                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl"
+                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
                 src="/public/images/img2.jpg"
                 alt=""
               />
@@ -77,7 +77,7 @@ const Home = () => {
             </div>
             <div>
               <img
-                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl"
+                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
                 src="/public/images/img3.jpg"
                 alt=""
               />
@@ -88,7 +88,7 @@ const Home = () => {
             </div>
             <div>
               <img
-                className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl"
+                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
                 src="/public/images/img4.jpg"
                 alt=""
               />
