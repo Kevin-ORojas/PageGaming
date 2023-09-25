@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <main className="min-h-screen flex flex-col justify-center items-center">
-      <article className="md:grid md:grid-cols-2 md:gap-24">
+      <article className="md:grid md:grid-cols-2 md:gap-24 p-14git">
         <section className="flex flex-col justify-center items-center">
           <div className="w-full md:w-[450px] text-center">
             <p className="mx-auto text-colorCnt font-semibold text-left mb-4">
@@ -40,17 +40,19 @@ const Home = () => {
         </section>
       </article>
 
-      <section className="flex flex-col justify-around items-center my-4 px-8 h-[600px] ">
+      <section className="md:flex md:flex-col md:justify-around md:items-center md:my-4 md:px-8 md:h-[600px] ">
         <article className="">
-          <div className="flex justify-between py-12">
-            <h2 className="text-2xl font-bold text-white">
+          <div className="md:flex md:justify-between py-12">
+            <h2 className="md:text-2xl font-bold text-white">
               Currently Trending games
             </h2>
-            <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
-              see all
-            </button>
+            <div className="py-4">
+              <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
+                see all
+              </button>
+            </div>
           </div>
-          <div className="flex gap-24">
+          <div className="md:flex md:gap-24">
             <div>
               <img
                 className="w-[200px] h-[200px] object-cover rounded-xl shadow-2xl "
