@@ -21,37 +21,35 @@ const Navbar = () => {
       <nav
         className={`items-center absolute top-full -left-full w-[100%] grid gap-4 px-2 text-xl ${
           isMenuVisible ? "left-0" : "-left-full"
-        }  duration-200 md:static md:flex md:w-auto p-5 place-content-center place-items-center rounded-sm bg-black text-white md:bg-blueClaro`}
+        }  duration-200 md:static md:flex md:w-auto p-5 place-content-center place-items-center rounded-sm  text-white `}
       >
-        
-          <ul className="flex flex-col items-center md:flex md:flex-row gap-8">
-            <li>
-              <Link to="/" className="hover:text-blue-500">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className=" hover:text-blue-500">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="/portfolio" className="md:mr-12  hover:text-blue-500">
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link to="/news" className="hover:text-blue-500">
-                News
-              </Link>
-            </li>
-            <li className="bg-colorCnt hover:animate-pulse w-[115px] h-8 flex justify-center items-center rounded-md">
-              <Link to="/contact" className="text-white">
-                Contact us
-              </Link>
-            </li>
-          </ul>
-        
+        <ul className="flex flex-col items-center md:flex md:flex-row gap-8">
+          <li>
+            <Link to="/" className="hover:text-blue-500">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className=" hover:text-blue-500">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/portfolio" className="md:mr-12  hover:text-blue-500">
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link to="/news" className="hover:text-blue-500">
+              News
+            </Link>
+          </li>
+          <li className="bg-colorCnt hover:animate-pulse w-[115px] h-8 flex justify-center items-center rounded-md">
+            <Link to="/contact" className="text-white">
+              Contact us
+            </Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );

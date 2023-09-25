@@ -2,10 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center">
+    <main className="min-h-screen w-full flex flex-col justify-center items-center">
       <article className="md:grid md:grid-cols-2 md:gap-24 p-14">
         <section className="flex flex-col justify-center items-center">
-          <div className="w-full md:w-[450px] text-center">
+          <div className="w-full md:w-[450px]  text-center">
             <p className="mx-auto text-colorCnt animate-bounce font-semibold text-left mb-4">
               Proved By prodesigner
             </p>
@@ -102,23 +102,36 @@ const Home = () => {
         </article>
       </section>
 
-      <section className="h-[150px]">
+      <section className="md:h-[150px]">
         <article className="">
-          <p className="text-2xl w-[550px] text-white font-bold text-center">
+          <p className="text-2xl  text-white font-bold text-center">
             Esto es una aplicacion donde se muestra informacion de video juegos
             y tambien puedes comprar alguno de ellos
           </p>
         </article>
       </section>
 
-      <section className="w-[70%]">
+      <section className="md:h-[750px]">
         <article className="flex justify-start items-center ">
-        <div className="shadow-2xl drop-shadow-lg">
-          <img src="./images/img-4.png" alt="" />
-        </div>
+          <div className="shadow-2xl drop-shadow-lg">
+            <img className="w-full h-full object-cover" src="./images/img-4.png" alt="" />
+          </div>
         </article>
+      </section>
 
-       
+      <section className="relative w-full h-[750px]">
+        <img
+          className="absolute w-full h-full object-cover filter brightness-50"
+          src="./images/img-2.png"
+          alt=""
+        />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="flex justify-center py-24 w-full">
+          <p className="absolute text-white z-10 text-2xl text-center md:w-[700px] ">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+            mollitia accusamus ipsam? Aperiam, eaque iure.
+          </p>
+        </div>
       </section>
     </main>
   );
