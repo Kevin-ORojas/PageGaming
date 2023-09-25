@@ -101,6 +101,25 @@ const Home = () => {
           </div>
         </article>
       </section>
+
+      <section className="h-[150px]">
+        <article className="">
+          <p className="text-2xl w-[550px] text-white font-bold text-center">
+            Esto es una aplicacion donde se muestra informacion de video juegos
+            y tambien puedes comprar alguno de ellos
+          </p>
+        </article>
+      </section>
+
+      <section className="w-[70%]">
+        <article className="flex justify-start items-center ">
+        <div className="shadow-2xl drop-shadow-lg">
+          <img src="./images/img-4.png" alt="" />
+        </div>
+        </article>
+
+       
+      </section>
     </main>
   );
 };
