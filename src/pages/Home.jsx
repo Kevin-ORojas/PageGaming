@@ -123,7 +123,7 @@ const Home = () => {
 
       <section className="w-full">
         <img
-          className="absolute w-full h-full object-cover filter brightness-50"
+          className="absolute w-full h-[850px] object-cover filter brightness-50"
           src="./images/img-2.png"
           alt=""
         />
@@ -144,15 +144,15 @@ const Home = () => {
           </div>
         </article>
 
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center top-[20%] relative">
+        <section className="grid grid-cols-2 md:grid-cols-3 gap-12 justify-center items-center mt-24 md:mt-36 relative text-white font-semibold">
           {/* Contenedor 1 */}
           <div className="flex flex-col items-center gap-4">
             <img
-              className="relative text-white"
+              className="relative w-[50px] md:w-auto"
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-4" src="./images/pc.png" alt="" />
+            <img className="absolute top-2 md:top-4" src="./images/pc.png" alt="" />
             <p>Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
@@ -160,11 +160,11 @@ const Home = () => {
           {/* Contenedor 2 */}
           <div className="flex flex-col items-center gap-4">
             <img
-              className="relative text-white"
+              className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <img className="absolute top-2 md:top-4" src="./images/pc.png" alt="" />
             <p>Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
@@ -172,11 +172,15 @@ const Home = () => {
           {/* Contenedor 3 */}
           <div className="flex flex-col items-center gap-4">
             <img
-              className="relative text-white"
+              className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <img
+              className="absolute top-[185px] md:top-4"
+              src="./images/pc.png"
+              alt=""
+            />
             <p>Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
@@ -184,11 +188,15 @@ const Home = () => {
           {/* Contenedor 4 */}
           <div className="flex flex-col items-center gap-4">
             <img
-              className="relative text-white"
+              className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <img
+              className="absolute top-[185px] md:top-[205px]  "
+              src="./images/pc.png"
+              alt=""
+            />
             <p>Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
@@ -196,23 +204,31 @@ const Home = () => {
           {/* Contenedor 5 */}
           <div className="flex flex-col items-center gap-4">
             <img
-              className="relative text-white"
+              className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <img
+              className="absolute top-[360px] md:top-52"
+              src="./images/pc.png"
+              alt=""
+            />
             <p>Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 6 */}
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4">
             <img
-              className="relative text-white"
+              className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-4" src="./images/pc.png" alt="" />
+            <img
+              className="absolute top-[360px] md:top-52"
+              src="./images/pc.png"
+              alt=""
+            />
             <p>Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
