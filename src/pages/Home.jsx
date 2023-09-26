@@ -41,65 +41,63 @@ const Home = () => {
       </article>
 
       <section className="md:flex md:flex-col md:justify-around md:items-center md:my-4 md:px-8 md:h-[600px] ">
-        <article className="">
-          <div className="md:flex md:justify-between items-center py-4">
-            <h2 className="md:text-2xl font-bold text-white">
-              Currently Trending games
-            </h2>
-            <div className="py-4">
-              <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
-                see all
-              </button>
-            </div>
+        <div className="md:flex md:justify-between items-center py-4">
+          <h2 className="md:text-2xl font-bold text-white">
+            Currently Trending games
+          </h2>
+          <div className="py-4">
+            <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
+              see all
+            </button>
           </div>
-          <div className="md:flex md:gap-24">
-            <div className="">
-              <img
-                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl "
-                src="/public/images/img1.jpg"
-                alt=""
-              />
-              <p className="mt-4 text-white text-center font-bold">
-                <i className="bx bxs-hot mr-2"></i>
-                40 follower
-              </p>
-            </div>
-            <div>
-              <img
-                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
-                src="/public/images/img2.jpg"
-                alt=""
-              />
-              <p className="mt-4 text-white text-center font-bold">
-                <i className="bx bxs-hot mr-2"></i>
-                40 follower
-              </p>
-            </div>
-            <div>
-              <img
-                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
-                src="/public/images/img3.jpg"
-                alt=""
-              />
-              <p className="mt-4 text-white text-center font-bold">
-                <i className="bx bxs-hot mr-2"></i>
-                40 follower
-              </p>
-            </div>
-            <div>
-              <img
-                className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
-                src="/public/images/img4.jpg"
-                alt=""
-              />
+        </div>
+        <div className="md:flex md:gap-24">
+          <div className="">
+            <img
+              className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl "
+              src="/public/images/img1.jpg"
+              alt=""
+            />
+            <p className="mt-4 text-white text-center font-bold">
+              <i className="bx bxs-hot mr-2"></i>
+              40 follower
+            </p>
+          </div>
+          <div>
+            <img
+              className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
+              src="/public/images/img2.jpg"
+              alt=""
+            />
+            <p className="mt-4 text-white text-center font-bold">
+              <i className="bx bxs-hot mr-2"></i>
+              40 follower
+            </p>
+          </div>
+          <div>
+            <img
+              className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
+              src="/public/images/img3.jpg"
+              alt=""
+            />
+            <p className="mt-4 text-white text-center font-bold">
+              <i className="bx bxs-hot mr-2"></i>
+              40 follower
+            </p>
+          </div>
+          <div>
+            <img
+              className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
+              src="/public/images/img4.jpg"
+              alt=""
+            />
 
-              <p className="mt-4 text-white text-center font-bold">
-                <i className="bx bxs-hot mr-2"></i>
-                40 follower
-              </p>
-            </div>
+            <p className="mt-4 text-white text-center font-bold">
+              <i className="bx bxs-hot mr-2"></i>
+              40 follower
+            </p>
           </div>
-        </article>
+        </div>
       </section>
 
       <section className="md:h-[150px]">
@@ -111,7 +109,7 @@ const Home = () => {
         </article>
       </section>
 
-      <section className="md:h-[750px]">
+      <section className="h-[250px] md:h-[750px]">
         <article className="flex justify-start items-center ">
           <div className="shadow-2xl drop-shadow-lg">
             <img
@@ -123,34 +121,102 @@ const Home = () => {
         </article>
       </section>
 
-      <section className="relative w-full h-[750px]">
+      <section className="w-full">
         <img
           className="absolute w-full h-full object-cover filter brightness-50"
           src="./images/img-2.png"
           alt=""
         />
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="flex justify-center py-24 w-full">
-          <p className="absolute text-white z-10 text-xl text-center md:w-[700px] leading-9 font-semibold ">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            mollitia accusamus ipsam? Aperiam, eaque iure.
-          </p>
-        </div>
 
-        <div className="flex justify-center  w-full">
-          <p className="absolute text-white z-10 text-md text-center md:w-[700px] leading-9">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            mollitia accusamus ipsam? Aperiam, eaque iure.
-          </p>
-        </div>
+        <article className="">
+          <div className="flex justify-center py-24 w-full ">
+            <p className="absolute text-white z-10 text-xl text-center md:w-[700px] leading-9 font-semibold ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+              mollitia accusamus ipsam? Aperiam, eaque iure.
+            </p>
+          </div>
 
-        <div className="absolute inset-0 flex items-center justify-center">
-          <img
-            className="relative text-white"
-            src="./images/eclips.png"
-            alt=""
-          />
-        </div>
+          <div className="flex justify-center  w-full">
+            <p className="absolute text-white z-10 text-md text-center md:w-[700px] leading-9">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+              mollitia accusamus ipsam? Aperiam, eaque iure.
+            </p>
+          </div>
+        </article>
+
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center top-[20%] relative">
+          {/* Contenedor 1 */}
+          <div className="flex flex-col items-center gap-4">
+            <img
+              className="relative text-white"
+              src="./images/eclipse.png"
+              alt=""
+            />
+            <img className="absolute top-4" src="./images/pc.png" alt="" />
+            <p>Game development</p>
+            <img src="./images/arrow.png" alt="" />
+          </div>
+
+          {/* Contenedor 2 */}
+          <div className="flex flex-col items-center gap-4">
+            <img
+              className="relative text-white"
+              src="./images/eclipse.png"
+              alt=""
+            />
+            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <p>Game development</p>
+            <img src="./images/arrow.png" alt="" />
+          </div>
+
+          {/* Contenedor 3 */}
+          <div className="flex flex-col items-center gap-4">
+            <img
+              className="relative text-white"
+              src="./images/eclipse.png"
+              alt=""
+            />
+            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <p>Game development</p>
+            <img src="./images/arrow.png" alt="" />
+          </div>
+
+          {/* Contenedor 4 */}
+          <div className="flex flex-col items-center gap-4">
+            <img
+              className="relative text-white"
+              src="./images/eclipse.png"
+              alt=""
+            />
+            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <p>Game development</p>
+            <img src="./images/arrow.png" alt="" />
+          </div>
+
+          {/* Contenedor 5 */}
+          <div className="flex flex-col items-center gap-4">
+            <img
+              className="relative text-white"
+              src="./images/eclipse.png"
+              alt=""
+            />
+            <img className="absolute top-4 " src="./images/pc.png" alt="" />
+            <p>Game development</p>
+            <img src="./images/arrow.png" alt="" />
+          </div>
+
+          {/* Contenedor 6 */}
+          <div className="flex flex-col items-center gap-4">
+            <img
+              className="relative text-white"
+              src="./images/eclipse.png"
+              alt=""
+            />
+            <img className="absolute top-4" src="./images/pc.png" alt="" />
+            <p>Game development</p>
+            <img src="./images/arrow.png" alt="" />
+          </div>
+        </section>
       </section>
     </main>
   );
