@@ -289,7 +289,7 @@ const Home = () => {
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
           </div>
-          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[850px] h-[150px] lg:w-[650] md: py-4 pl-2 ">
+          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[750px] h-[150px] lg:w-[650] md: py-4 pl-2 ">
             <div
               className="text-center md:flex md:justify-center md:items-center md:mt-4
              "
