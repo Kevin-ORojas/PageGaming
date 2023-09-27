@@ -41,7 +41,7 @@ const Home = () => {
       </article>
 
       <section className="md:flex md:flex-col md:justify-around md:items-center md:my-4 md:px-8 md:h-[600px] ">
-        <div className="md:flex md:justify-between items-center py-4">
+        <div className="md:flex md:justify-between items-center w-full py-4">
           <h2 className="md:text-2xl font-bold text-white">
             Currently Trending games
           </h2>
@@ -121,9 +121,9 @@ const Home = () => {
         </article>
       </section>
 
-      <section className="w-full">
+      <section className="w-full h-[950px]">
         <img
-          className="absolute w-full h-[850px] object-cover filter brightness-50"
+          className="absolute w-full h-[800px] object-cover filter brightness-50"
           src="./images/img-2.png"
           alt=""
         />
@@ -144,6 +144,7 @@ const Home = () => {
           </div>
         </article>
 
+        {/*Section donde se encuentran las imagenes de diferentes dispositivos de juegos*/}
         <section className="grid grid-cols-2 md:grid-cols-3 gap-12 justify-center items-center mt-24 md:mt-36 relative text-white font-semibold">
           {/* Contenedor 1 */}
           <div className="flex flex-col items-center gap-4">
@@ -152,8 +153,12 @@ const Home = () => {
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-2 md:top-4" src="./images/pc.png" alt="" />
-            <p>Game development</p>
+            <img
+              className="absolute top-2 md:top-4"
+              src="./images/pc.png"
+              alt=""
+            />
+            <p>PC Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
@@ -164,8 +169,12 @@ const Home = () => {
               src="./images/eclipse.png"
               alt=""
             />
-            <img className="absolute top-2 md:top-4" src="./images/pc.png" alt="" />
-            <p>Game development</p>
+            <img
+              className="absolute top-2 md:top-3"
+              src="./images/ps4.png"
+              alt=""
+            />
+            <p>PS4 Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
@@ -178,10 +187,10 @@ const Home = () => {
             />
             <img
               className="absolute top-[185px] md:top-4"
-              src="./images/pc.png"
+              src="./images/smartphone.png"
               alt=""
             />
-            <p>Game development</p>
+            <p>Mobile Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
@@ -194,10 +203,10 @@ const Home = () => {
             />
             <img
               className="absolute top-[185px] md:top-[205px]  "
-              src="./images/pc.png"
+              src="./images/glases.png"
               alt=""
             />
-            <p>Game development</p>
+            <p>AR/ VR development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
@@ -209,11 +218,11 @@ const Home = () => {
               alt=""
             />
             <img
-              className="absolute top-[360px] md:top-52"
-              src="./images/pc.png"
+              className="absolute top-[360px] md:top-[205px]"
+              src="./images/cube.png"
               alt=""
             />
-            <p>Game development</p>
+            <p>3D modelings</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
@@ -226,13 +235,48 @@ const Home = () => {
             />
             <img
               className="absolute top-[360px] md:top-52"
-              src="./images/pc.png"
+              src="./images/desktop.png"
               alt=""
             />
-            <p>Game development</p>
+            <p>AR/VR desing</p>
             <img src="./images/arrow.png" alt="" />
           </div>
         </section>
+      </section>
+      <section className="w-full relative text-white text-center">
+        <article className="h-[150px]">
+          <h1 className="text-3xl font-bold mb-6 text-white">
+            Our Recent project
+          </h1>
+          <div className="w-full flex justify-center">
+            <p className="w-[450px]">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              quos id autem illo voluptatibus. Temporibus.
+            </p>
+          </div>
+        </article>
+
+        <article className="flex justify-center gap-8 flex-wrap p-4">
+          <div>
+            <img src="./images/Rectangle.png" className="" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle1.png" className="" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle2.png" className="" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle4.png" className="" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle5.png" className="" alt="" />
+          </div>
+          <div>
+            <img src="./images/Rectangle3.png" className="" alt="" />
+          </div>
+      
+        </article>
       </section>
     </main>
   );
