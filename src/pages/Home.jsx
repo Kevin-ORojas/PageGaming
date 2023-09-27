@@ -5,7 +5,7 @@ const Home = () => {
     <main className="min-h-screen w-full flex flex-col justify-center items-center">
       <article className="md:grid md:grid-cols-2 md:gap-24 p-14">
         <section className="flex flex-col justify-center items-center">
-          <div className="w-full md:w-[450px]  text-center">
+          <div className="w-full md:w-[450px]  text-center md:ml-28">
             <p className="mx-auto text-colorCnt animate-bounce font-semibold text-left mb-4">
               Proved By prodesigner
             </p>
@@ -123,21 +123,21 @@ const Home = () => {
 
       <section className="w-full h-[950px]">
         <img
-          className="absolute w-full h-[800px] object-cover filter brightness-50"
+          className="absolute w-full h-[890px] object-cover filter brightness-50"
           src="./images/img-2.png"
           alt=""
         />
 
         <article className="">
           <div className="flex justify-center py-24 w-full ">
-            <p className="absolute text-white z-10 text-xl text-center md:w-[700px] leading-9 font-semibold ">
+            <p className="absolute text-white z-10 md:text-xl text-center md:w-[700px] leading-5 md:leading-9 font-semibold ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
               mollitia accusamus ipsam? Aperiam, eaque iure.
             </p>
           </div>
 
-          <div className="flex justify-center  w-full">
-            <p className="absolute text-white z-10 text-md text-center md:w-[700px] leading-9">
+          <div className="flex justify-center h-12 w-full">
+            <p className="absolute text-white z-10 text-md text-center md:w-[700px] md:leading-9 mb-2">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
               mollitia accusamus ipsam? Aperiam, eaque iure.
             </p>
@@ -147,78 +147,78 @@ const Home = () => {
         {/*Section donde se encuentran las imagenes de diferentes dispositivos de juegos*/}
         <section className="grid grid-cols-2 md:grid-cols-3 gap-12 justify-center items-center mt-24 md:mt-36 relative text-white font-semibold">
           {/* Contenedor 1 */}
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4">
             <img
               className="relative w-[50px] md:w-auto"
               src="./images/eclipse.png"
               alt=""
             />
             <img
-              className="absolute top-2 md:top-4"
+              className="absolute top-2 left-13  "
               src="./images/pc.png"
               alt=""
             />
-            <p>PC Game development</p>
+            <p className="text-center">PC Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 2 */}
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4">
             <img
               className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
             <img
-              className="absolute top-2 md:top-3"
+              className="absolute top-1 left-13"
               src="./images/ps4.png"
               alt=""
             />
-            <p>PS4 Game development</p>
+            <p className="text-center">PS4 Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 3 */}
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4">
             <img
               className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
             <img
-              className="absolute top-[185px] md:top-4"
+              className="absolute top-[205px] md:top-4"
               src="./images/smartphone.png"
               alt=""
             />
-            <p>Mobile Game development</p>
+            <p className="text-center">Mobile Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 4 */}
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4">
             <img
               className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
             <img
-              className="absolute top-[185px] md:top-[205px]  "
+              className="absolute sm:top-[px] top-[216px] md:top-[205px]  "
               src="./images/glases.png"
               alt=""
             />
-            <p>AR/ VR development</p>
+            <p className="text-center">AR/ VR development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 5 */}
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4">
             <img
               className="relative w-[50px] md:w-auto "
               src="./images/eclipse.png"
               alt=""
             />
             <img
-              className="absolute top-[360px] md:top-[205px]"
+              className="absolute top-[405px] md:top-[205px]"
               src="./images/cube.png"
               alt=""
             />
@@ -234,7 +234,7 @@ const Home = () => {
               alt=""
             />
             <img
-              className="absolute top-[360px] md:top-52"
+              className="absolute top-[405px] md:top-52"
               src="./images/desktop.png"
               alt=""
             />
@@ -275,19 +275,32 @@ const Home = () => {
           <div>
             <img src="./images/Rectangle3.png" className="" alt="" />
           </div>
-          <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
-            see all
-          </button>
         </article>
+        <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
+          see all
+        </button>
       </section>
 
-      <section className="w-full h-auto p-14">
-        <article>
+      <section className="w-full h-auto p-4">
+        <article className="flex flex-col items-center justify-center  gap-2">
           <div className="mb-8">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
           </div>
-          <div className="border-1 bg-black w-full h-[150px] py-4"></div>
+          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[650px] h-[150px] lg:w-[650] md: py-4 pl-2">
+            <div className="relative">
+              <h2 className="text-white mt-4">Stay in start loop</h2>
+              <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, suscipit.</p>
+              <input
+                type="text"
+                placeholder="Enter email address"
+                className="rounded-md w-full  pr-[2rem] placeholder-[10px] text-[14px] text-center font-semibold" // Agregar espacio a la derecha para el botón
+                />
+              <button className="absolute top-[73px] md:top-[50px] right-0 h-[1.4rem] w-[5rem] md:w-20 rounded-md bg-colorCnt uppercase text-white font-bold text-[10px] md:text-[12px]">
+                see all
+              </button>
+            </div>
+          </div>
         </article>
       </section>
     </main>
