@@ -101,7 +101,7 @@ const Home = () => {
       </section>
 
       <section className="md:h-[150px]">
-        <article className="">
+        <article className="h-[150px] py-5">
           <p className="text-2xl  text-white font-bold text-center">
             Esto es una aplicacion donde se muestra informacion de video juegos
             y tambien puedes comprar alguno de ellos
@@ -276,29 +276,41 @@ const Home = () => {
             <img src="./images/Rectangle3.png" className="" alt="" />
           </div>
         </article>
-        <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
-          see all
-        </button>
+        <div className="py-4">
+          <button className="h-10 w-24 rounded-md bg-colorCnt uppercase text-white font-bold">
+            see all
+          </button>
+        </div>
       </section>
 
       <section className="w-full h-auto p-4">
         <article className="flex flex-col items-center justify-center  gap-2">
-          <div className="mb-8">
+          <div className="my-8 text-center text-white font-semibold text-xl md:text-2xl">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
           </div>
-          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[650px] h-[150px] lg:w-[650] md: py-4 pl-2">
-            <div className="relative">
-              <h2 className="text-white mt-4">Stay in start loop</h2>
-              <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, suscipit.</p>
-              <input
-                type="text"
-                placeholder="Enter email address"
-                className="rounded-md w-full  pr-[2rem] placeholder-[10px] text-[14px] text-center font-semibold" // Agregar espacio a la derecha para el botón
+          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[850px] h-[150px] lg:w-[650] md: py-4 pl-2 ">
+            <div
+              className="text-center md:flex md:justify-center md:items-center md:mt-4
+             "
+            >
+              <div>
+                <h2 className="text-white text-left pl-4 md:text-2xl">Stay in start loop</h2>
+                <p className="text-white text-left pl-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
+                  suscipit.
+                </p>
+              </div>
+              <div className="md:w-[100%] p-4 md:py-4 flex justify-center items-center">
+                <input
+                  type="text"
+                  placeholder="Enter email address"
+                  className="rounded-md w-full pr-[2rem] bg-transparent border placeholder-[10px] h-[40px] text-[14px] text-center font-semibold" // Agregar espacio a la derecha para el botón
                 />
-              <button className="absolute top-[73px] md:top-[50px] right-0 h-[1.4rem] w-[5rem] md:w-20 rounded-md bg-colorCnt uppercase text-white font-bold text-[10px] md:text-[12px]">
-                see all
-              </button>
+                <button className="top-[73px] md:top-[50px] left-38 right-0 h-[2.4rem] w-[5rem] md:w-30 md:h-10 rounded-md bg-colorCnt  text-white font-bold text-[10px] md:text-[12px]">
+                  Continue
+                </button>
+              </div>
             </div>
           </div>
         </article>
