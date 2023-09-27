@@ -275,7 +275,19 @@ const Home = () => {
           <div>
             <img src="./images/Rectangle3.png" className="" alt="" />
           </div>
-      
+          <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
+            see all
+          </button>
+        </article>
+      </section>
+
+      <section className="w-full h-auto p-14">
+        <article>
+          <div className="mb-8">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
+          </div>
+          <div className="border-1 bg-black w-full h-[150px] py-4"></div>
         </article>
       </section>
     </main>
