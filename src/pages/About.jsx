@@ -54,6 +54,13 @@ const About = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
               vel quibusdam nulla tempora eius quo!
             </p>
+
+            <button
+              className="text-left text-white bg-colorCnt hover:animate-pulse text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-md"
+              type="submit"
+            >
+              Get more details
+            </button>
           </div>
         </section>
         <section>

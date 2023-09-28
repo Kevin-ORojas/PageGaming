@@ -180,64 +180,72 @@ const Home = () => {
 
           {/* Contenedor 3 */}
           <div className="flex flex-col items-center justify-center gap-4">
-            <img
-              className="relative w-[50px] md:w-auto "
-              src="./images/eclipse.png"
-              alt=""
-            />
-            <img
-              className="absolute top-[205px] md:top-4"
-              src="./images/smartphone.png"
-              alt=""
-            />
+            <div className="relative">
+              <img
+                className="relative w-[50px] md:w-auto "
+                src="./images/eclipse.png"
+                alt=""
+              />
+              <img
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                src="./images/smartphone.png"
+                alt=""
+              />
+            </div>
             <p className="text-center">Mobile Game development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 4 */}
           <div className="flex flex-col items-center justify-center gap-4">
-            <img
-              className="relative w-[50px] md:w-auto "
-              src="./images/eclipse.png"
-              alt=""
-            />
-            <img
-              className="absolute sm:top-[px] top-[216px] md:top-[205px]  "
-              src="./images/glases.png"
-              alt=""
-            />
+            <div className="relative">
+              <img
+                className="w-[50px] md:w-auto"
+                src="./images/eclipse.png"
+                alt=""
+              />
+              <img
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                src="./images/glases.png"
+                alt=""
+              />
+            </div>
             <p className="text-center">AR/ VR development</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 5 */}
           <div className="flex flex-col items-center justify-center gap-4">
-            <img
-              className="relative w-[50px] md:w-auto "
-              src="./images/eclipse.png"
-              alt=""
-            />
-            <img
-              className="absolute top-[405px] md:top-[205px]"
-              src="./images/cube.png"
-              alt=""
-            />
+            <div className="relative">
+              <img
+                className="w-[50px] md:w-auto "
+                src="./images/eclipse.png"
+                alt=""
+              />
+              <img
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                src="./images/cube.png"
+                alt=""
+              />
+            </div>
             <p>3D modelings</p>
             <img src="./images/arrow.png" alt="" />
           </div>
 
           {/* Contenedor 6 */}
           <div className="flex flex-col items-center justify-center gap-4">
-            <img
-              className="relative w-[50px] md:w-auto "
-              src="./images/eclipse.png"
-              alt=""
-            />
-            <img
-              className="absolute top-[405px] md:top-52"
-              src="./images/desktop.png"
-              alt=""
-            />
+            <div className="relative">
+              <img
+                className="relative w-[50px] md:w-auto "
+                src="./images/eclipse.png"
+                alt=""
+              />
+              <img
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                src="./images/desktop.png"
+                alt=""
+              />
+            </div>
             <p>AR/VR desing</p>
             <img src="./images/arrow.png" alt="" />
           </div>
