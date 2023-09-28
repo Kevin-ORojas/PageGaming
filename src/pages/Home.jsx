@@ -46,7 +46,7 @@ const Home = () => {
             Currently Trending games
           </h2>
           <div className="py-4">
-            <button className="h-10 w-24 rounded-md bg-seeAll uppercase text-white font-bold">
+            <button className="h-10 w-24 rounded-md bg-colorCnt uppercase text-white font-bold">
               see all
             </button>
           </div>
@@ -101,15 +101,15 @@ const Home = () => {
       </section>
 
       <section className="md:h-[150px]">
-        <article className="h-[150px] py-5">
-          <p className="text-2xl  text-white font-bold text-center">
+        <article className="h-[250px] py-5">
+          <p className="text-2xl  text-white font-bold text-center md:w-[750px] ">
             Esto es una aplicacion donde se muestra informacion de video juegos
             y tambien puedes comprar alguno de ellos
           </p>
         </article>
       </section>
 
-      <section className="h-[250px] md:h-[750px]">
+      <section className="h-[250px] md:h-[650px]">
         <article className="flex justify-start items-center ">
           <div className="shadow-2xl drop-shadow-lg">
             <img
@@ -137,7 +137,7 @@ const Home = () => {
           </div>
 
           <div className="flex justify-center h-12 w-full">
-            <p className="absolute text-white z-10 text-md text-center md:w-[700px] md:leading-9 mb-2">
+            <p className="absolute text-white z-10 text-md text-center md:w-[700px]  md:leading-9 mb-2">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
               mollitia accusamus ipsam? Aperiam, eaque iure.
             </p>
@@ -283,7 +283,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="w-full h-auto p-4">
+      <section className="w-full md:h-[450px] p-4">
         <article className="flex flex-col items-center justify-center  gap-2">
           <div className="my-8 text-center text-white font-semibold text-xl md:text-2xl">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
@@ -295,7 +295,9 @@ const Home = () => {
              "
             >
               <div>
-                <h2 className="text-white text-left pl-4 md:text-2xl">Stay in start loop</h2>
+                <h2 className="text-white text-left pl-4 md:text-2xl">
+                  Stay in start loop
+                </h2>
                 <p className="text-white text-left pl-4">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
                   suscipit.
@@ -315,6 +317,42 @@ const Home = () => {
           </div>
         </article>
       </section>
+
+      <footer className="bg-black w-full h-[350px] text-white">
+        <section className="grid grid-cols-3 justify-center items-center h-full p-4">
+          <div className="">
+            <h2 className="font-bold text-xl py-2">logo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              tenetur!
+            </p>
+            <span>@logo</span>
+          </div>
+
+          <div className="flex flex-col justify-center items-center ">
+            <h2 className="font-bold text-xl py-2">About us</h2>
+            <span>Zeux</span>
+            <span>Porfolio</span>
+            <span>Careers</span>
+            <span>Contac Us</span>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-bold py-2">logo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              tenetur!
+            </p>
+
+            <p>+988 89097 890</p>
+          </div>
+          <div className="col-span-4 border-b border-gray-100 "></div>
+          <div></div>
+          <h3 className="text-center w-full">
+            &copy;Nozdov all right {new Date().getFullYear()}
+          </h3>
+        </section>
+      </footer>
     </main>
   );
 };
