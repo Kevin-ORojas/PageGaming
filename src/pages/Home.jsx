@@ -55,7 +55,7 @@ const Home = () => {
           <div className="">
             <img
               className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl "
-              src="/public/images/img1.jpg"
+              src="./images/img1.jpg"
               alt=""
             />
             <p className="mt-4 text-white text-center font-bold">
@@ -66,7 +66,7 @@ const Home = () => {
           <div>
             <img
               className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
-              src="/public/images/img2.jpg"
+              src="./images/img2.jpg"
               alt=""
             />
             <p className="mt-4 text-white text-center font-bold">
@@ -77,7 +77,7 @@ const Home = () => {
           <div>
             <img
               className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
-              src="/public/images/img3.jpg"
+              src="./images/img3.jpg"
               alt=""
             />
             <p className="mt-4 text-white text-center font-bold">
@@ -88,7 +88,7 @@ const Home = () => {
           <div>
             <img
               className="w-[200px] h-[200px] hover:p-2 object-cover rounded-xl shadow-2xl"
-              src="/public/images/img4.jpg"
+              src="./images/img4.jpg"
               alt=""
             />
 

@@ -10,7 +10,8 @@ export default {
         blueClaro: "#4338ca",
         colorCnt: "#DC7000",
         seeAll: "#6366f1",
-        barraloop: "#1C140F"
+        barraloop: "#1C140F",
+        aboutcolr: "#B000DC1C"
       },
       fontFamily: {
         custom: ["Merriweather", "serif"],
