@@ -80,23 +80,50 @@ const About = () => {
           </h2>
         </div>
         <article className="w-full flex justify-center gap-8 flex-wrap items-center">
-          <div className="bg-black border text-white border-red-100 w-[350px] h-[350px] rounded-xl p-4">
-            <div className="py-4 ml-4 bg-aboutcolr w-[100px]">
-              <h2 className="rounded-full text-sm text-center">
+          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-4">
+            <div className="mt-8">
+              <h2 className="rounded-xl text-sm bg-aboutcolr text-center py-2 ">
                 Lorem ipsum dolor
               </h2>
             </div>
             <div className="mt-10">
               <h2>lorem lorem lorem</h2>
-              <p>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor saepe deserunt eaque dolores ea.
+              <p className="py-6">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum dolor saepe deserunt eaque dolores ea.
               </p>
             </div>
           </div>
 
-          <div className="bg-black border border-red-100 w-[350px] h-[350px] rounded-xl"></div>
+          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-4">
+            <div className="mt-8">
+              <h2 className="rounded-xl text-sm bg-aboutcolr text-center py-2 ">
+                Lorem ipsum dolor
+              </h2>
+            </div>
+            <div className="mt-10">
+              <h2>lorem lorem lorem</h2>
+              <p className="py-6">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum dolor saepe deserunt eaque dolores ea.
+              </p>
+            </div>
+          </div>
 
-          <div className="bg-black border border-red-100 w-[350px] h-[350px] rounded-xl"></div>
+          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-4">
+            <div className="mt-8">
+              <h2 className="rounded-xl text-sm bg-aboutcolr text-center py-2 ">
+                Lorem ipsum dolor
+              </h2>
+            </div>
+            <div className="mt-10">
+              <h2>lorem lorem lorem</h2>
+              <p className="py-6">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum dolor saepe deserunt eaque dolores ea.
+              </p>
+            </div>
+          </div>
         </article>
       </section>
     </main>

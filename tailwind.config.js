@@ -11,7 +11,8 @@ export default {
         colorCnt: "#DC7000",
         seeAll: "#6366f1",
         barraloop: "#1C140F",
-        aboutcolr: "#B000DC1C"
+        aboutcolr: "#B000DC1C",
+        cardcolor: "#1C140F",
       },
       fontFamily: {
         custom: ["Merriweather", "serif"],
