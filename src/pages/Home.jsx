@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <main className="min-h-screen w-full flex flex-col justify-center items-center">
+    <main className="min-h-screen bg-gradient-to-r from-blueClaro to-blue-500 w-full flex flex-col justify-center items-center">
       <article className="md:grid md:grid-cols-2 md:gap-24 p-14">
         <section className="flex flex-col justify-center items-center">
           <div className="w-full md:w-[450px]  text-center md:ml-28">

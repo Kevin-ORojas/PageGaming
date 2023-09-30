@@ -31,9 +31,9 @@ const About = () => {
     });
     setBreadcrumbs(breadcrumbItems);
   }, [location.pathname]);
-
+  
   return (
-    <main>
+    <main className="bg-gradient-to-b from-purple-700 via-purple-500 to-blue-300 min-h-screen">
       {/* Resto del contenido de la página "About us" */}
       <div className="md:grid md:grid-cols-2 md:gap-8 ">
         <section className="flex flex-col  justify-center items-center text-xl font-bold py-4 ">
@@ -80,10 +80,10 @@ const About = () => {
           </h2>
         </div>
         <article className="w-full flex justify-center gap-8 flex-wrap items-center">
-          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-4">
-            <div className="mt-8">
+          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-10">
+            <div className="mt-8 md:w-[150px]">
               <h2 className="rounded-xl text-sm bg-aboutcolr text-center py-2 ">
-                Lorem ipsum dolor
+                Lorem ipsum
               </h2>
             </div>
             <div className="mt-10">
@@ -95,10 +95,10 @@ const About = () => {
             </div>
           </div>
 
-          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-4">
-            <div className="mt-8">
-              <h2 className="rounded-xl text-sm bg-aboutcolr text-center py-2 ">
-                Lorem ipsum dolor
+          <div className="bg-cardcolor text-white border-red-100 w-[350px] h-[350px] rounded-xl p-10">
+            <div className="mt-8 md:w-[150px]">
+              <h2 className="rounded-xl text-sm bg-carColorOne text-center py-2 ">
+                Lorem ipsum
               </h2>
             </div>
             <div className="mt-10">
@@ -110,10 +110,10 @@ const About = () => {
             </div>
           </div>
 
-          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-4">
-            <div className="mt-8">
-              <h2 className="rounded-xl text-sm bg-aboutcolr text-center py-2 ">
-                Lorem ipsum dolor
+          <div className="bg-cardcolor  text-white border-red-100 w-[350px] h-[350px] rounded-xl p-10">
+            <div className="mt-8 md:w-[150px]">
+              <h2 className="rounded-xl text-sm bg-carColorTwo text-center py-2 ">
+                Lorem ipsum
               </h2>
             </div>
             <div className="mt-10">
@@ -124,6 +124,46 @@ const About = () => {
               </p>
             </div>
           </div>
+        </article>
+      </section>
+
+      <section className="w-full h-full mt-20">
+        <article className="bg-cardcolor text-white md:grid  md:grid-cols-2 justify-center items-center gap-4 ">
+          <div className="flex justify-center items-center">
+            <img
+              src="./images/sectionimg.png"
+              className=" h-[380px] w-[450px] mt-16 pl-4"
+              alt=""
+            />
+          </div>
+
+          <div className="p-4">
+            <h4 className="mb-4">Lorem, ipsum.</h4>
+            <h2 className="mb-4 text-2xl font-bold md:w-[350px]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+              quisquam molestiae rem veniam ut quos voluptas modi inventore ex
+              in.
+            </h2>
+
+            <div>
+              <p className="md:w-[350px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, saepe. Deleniti amet soluta dolore dolorem odit
+                voluptatum error molestiae corporis voluptate neque asperiores
+                ipsam magni voluptatibus quisquam labore, aut at?
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section className="w-full h-[550px] mt-28">
+        <h2>Our Team</h2>
+        <article className="flex p-10 justify-evenly flex-wrap gap-4 items-center">
+          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
+          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
+          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
+          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
         </article>
       </section>
     </main>

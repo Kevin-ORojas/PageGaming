@@ -13,6 +13,8 @@ export default {
         barraloop: "#1C140F",
         aboutcolr: "#B000DC1C",
         cardcolor: "#1C140F",
+        carColorOne: "#DC42001C",
+        carColorTwo: "#00DC8D1C"
       },
       fontFamily: {
         custom: ["Merriweather", "serif"],

@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="bg-gradient-to-r from-blueClaro to-blue-500  min-h-screen">
+    <div className="">
       <Router>
           <Navbar />
         <AppRoutes />
