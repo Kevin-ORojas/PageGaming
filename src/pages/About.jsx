@@ -31,7 +31,7 @@ const About = () => {
     });
     setBreadcrumbs(breadcrumbItems);
   }, [location.pathname]);
-  
+
   return (
     <main className="bg-gradient-to-b from-purple-700 via-purple-500 to-blue-300 min-h-screen">
       {/* Resto del contenido de la página "About us" */}
@@ -158,12 +158,44 @@ const About = () => {
       </section>
 
       <section className="w-full h-[550px] mt-28">
-        <h2>Our Team</h2>
+        <h2 className="text-white text-left font-bold md:ml-20 text-2xl py-4 ">Our Team</h2>
         <article className="flex p-10 justify-evenly flex-wrap gap-4 items-center">
-          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
-          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
-          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
-          <div className="bg-black rounded-xl w-[180px] h-[180px]"></div>
+          <div className="bg-black rounded-xl w-[200px] h-[180px] flex justify-center items-center flex-col text-white">
+            <img
+              className="w-[90px] h-[90px]"
+              src="./images/Claudia.png"
+              alt="claudia"
+            />
+            <h2>Claudia</h2>
+            <p>COO</p>
+          </div>
+          <div className="bg-black rounded-xl w-[200px] h-[180px] flex justify-center items-center flex-col text-white">
+            <img
+              className="w-[90px] h-[90px]"
+              src="./images/Bill.png"
+              alt="bill"
+            />
+            <h2 >Bill</h2>
+            <p>COO</p>
+          </div>
+          <div className="bg-black rounded-xl w-[200px] h-[180px] flex justify-center items-center flex-col text-white">
+            <img
+              className="w-[90px] h-[90px]"
+              src="./images/Beverly.png"
+              alt="beverly"
+            />
+            <h2>Beverly</h2>
+            <p>COO</p>
+          </div>
+          <div className="bg-black rounded-xl w-[200px] h-[180px] flex justify-center items-center flex-col text-white">
+            <img
+              className="w-[90px] h-[90px]"
+              src="./images/Avatar1.png"
+              alt="avatar"
+            />
+            <h2>Avatar</h2>
+            <p>COO</p>
+          </div>
         </article>
       </section>
     </main>
