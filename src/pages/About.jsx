@@ -157,8 +157,11 @@ const About = () => {
         </article>
       </section>
 
-      <section className="w-full h-[550px] mt-28">
-        <h2 className="text-white text-left font-bold md:ml-20 text-2xl py-4 ">Our Team</h2>
+      <section className="w-full h-[450px] mt-28">
+        <h2 className="text-white text-left font-bold md:ml-10 ml-10 text-2xl py-4">
+          Our Team
+        </h2>
+
         <article className="flex p-10 justify-evenly flex-wrap gap-4 items-center">
           <div className="bg-black rounded-xl w-[200px] h-[180px] flex justify-center items-center flex-col text-white">
             <img
@@ -175,7 +178,7 @@ const About = () => {
               src="./images/Bill.png"
               alt="bill"
             />
-            <h2 >Bill</h2>
+            <h2>Bill</h2>
             <p>COO</p>
           </div>
           <div className="bg-black rounded-xl w-[200px] h-[180px] flex justify-center items-center flex-col text-white">
@@ -198,6 +201,77 @@ const About = () => {
           </div>
         </article>
       </section>
+
+      <section className="w-full md:h-[450px] p-4">
+        <article className="flex flex-col items-center justify-center  gap-2">
+          <div className="my-8 text-center text-white font-semibold text-xl md:text-2xl">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
+          </div>
+          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[750px] h-[170px] lg:w-[650] md: py-4 pl-2">
+            <div
+              className="text-center md:flex md:justify-center md:items-center md:mt-4
+             "
+            >
+              <div>
+                <h2 className="text-white text-left pl-4 md:text-2xl">
+                  Stay in start loop
+                </h2>
+                <p className="text-white text-left pl-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
+                  suscipit.
+                </p>
+              </div>
+              <div className="md:w-[100%] p-4 md:py-4 flex justify-center items-center">
+                <input
+                  type="text"
+                  placeholder="Enter email address"
+                  className="rounded-md w-full pr-[2rem] bg-transparent border placeholder-[10px] h-[40px] text-[14px] text-center font-semibold" // Agregar espacio a la derecha para el botón
+                />
+                <button className="top-[73px] md:top-[50px] left-38 right-0 h-[2.4rem] w-[5rem] md:w-30 md:h-10 rounded-md bg-colorCnt  text-white font-bold text-[10px] md:text-[12px]">
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer className="bg-black w-full h-[350px] text-white">
+        <section className="grid grid-cols-3 justify-center items-center h-full p-4">
+          <div className="">
+            <h2 className="font-bold text-xl py-2">logo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              tenetur!
+            </p>
+            <span>@logo</span>
+          </div>
+
+          <div className="flex flex-col justify-center items-center ">
+            <h2 className="font-bold text-xl py-2">About us</h2>
+            <span>Zeux</span>
+            <span>Porfolio</span>
+            <span>Careers</span>
+            <span>Contac Us</span>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-bold py-2">logo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              tenetur!
+            </p>
+
+            <p>+988 89097 890</p>
+          </div>
+          <div className="col-span-4 border-b border-gray-100 "></div>
+          <div></div>
+          <h3 className="text-center w-full">
+            &copy;Nozdov all right {new Date().getFullYear()}
+          </h3>
+        </section>
+      </footer>
     </main>
   );
 };

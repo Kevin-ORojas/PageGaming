@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-black z-50 flex justify-between md:justify-around p-4 px-6 relative  items-center">
+    <header className="bg-black z-50 sticky top-0 w-full flex justify-between md:justify-around p-4 px-6 relative items-center">
       <img className="w-14" src="./images/gamecolsole.png " alt="" />
 
       <i
@@ -20,9 +20,9 @@ const Navbar = () => {
       ></i>
 
       <nav
-        className={`items-center absolute top-full  -left-full w-[100%] grid gap-4 px-2 text-xl  ${
+        className={`items-center absolute top-full -left-full w-[100%] grid gap-4 px-2 text-xl  ${
           isMenuVisible ? "left-0" : "-top-full"
-        }  duration-700 md:static md:flex md:w-auto p-6  place-content-center place-items-center rounded-sm  text-white bg-black`}
+        }  duration-700 md:static md:flex md:w-auto p-6 place-content-center place-items-center rounded-sm  text-white bg-black`}
       >
         <ul className="flex flex-col items-center md:flex md:flex-row gap-8">
           <li>
