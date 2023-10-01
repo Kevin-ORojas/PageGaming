@@ -35,8 +35,8 @@ const Portfolio = () => {
   }, [location.pathname]);
 
   return (
-    <main>
-      <div className="text-black font-bold text-sm mb-4">
+    <main className="bg-gradient-to-b p-10 text-white from-blue-900  to-blue-500 min-h-screen">
+      <div className="text-black font-bold text-sm mb-4 flex justify-center items-center h-[20vh] ">
         {breadcrumbs.length > 0 && (
           <>
             <Link to="/">About</Link>
@@ -46,8 +46,14 @@ const Portfolio = () => {
         {breadcrumbs}
       </div>
       {/* Resto del contenido de la página */}
-      <h1>Portfolio</h1>
-      <p>This is the "Portfolio" page.</p>
+          <div className="text-center mb-12">
+            <h1 className="mb-4 text-2xl font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, mollitia.</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+
+          <div className="bg-barraloop w-full h-[150px] rounded-md">
+
+          </div>
     </main>
   );
 };

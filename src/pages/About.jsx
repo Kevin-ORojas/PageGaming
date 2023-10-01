@@ -202,7 +202,7 @@ const About = () => {
         </article>
       </section>
 
-      <section className="w-full md:h-[750px] p-4">
+      <section className="w-full md:h-[450px] p-10">
         <article className="flex flex-col items-center justify-center  gap-2">
           <div className="my-8 text-center text-white font-semibold text-xl md:text-2xl">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
