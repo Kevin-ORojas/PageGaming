@@ -127,7 +127,7 @@ const About = () => {
         </article>
       </section>
 
-      <section className="w-full h-full mt-20">
+      <section className="w-full h-[950px] md:h-450px mt-20">
         <article className="bg-cardcolor text-white md:grid  md:grid-cols-2 justify-center items-center gap-4 ">
           <div className="flex justify-center items-center">
             <img
@@ -157,7 +157,7 @@ const About = () => {
         </article>
       </section>
 
-      <section className="w-full h-[450px] mt-28">
+      <section className="w-full h-[880px] md:h-[580px] p-10">
         <h2 className="text-white text-left font-bold md:ml-10 ml-10 text-2xl py-4">
           Our Team
         </h2>
@@ -202,13 +202,13 @@ const About = () => {
         </article>
       </section>
 
-      <section className="w-full md:h-[450px] p-4">
+      <section className="w-full md:h-[750px] p-4">
         <article className="flex flex-col items-center justify-center  gap-2">
           <div className="my-8 text-center text-white font-semibold text-xl md:text-2xl">
             <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
           </div>
-          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[750px] h-[170px] lg:w-[650] md: py-4 pl-2">
+          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[750px] h-[170px] lg:w-[650] md:py-4 py-2 pl-2">
             <div
               className="text-center md:flex md:justify-center md:items-center md:mt-4
              "
