@@ -46,14 +46,46 @@ const Portfolio = () => {
         {breadcrumbs}
       </div>
       {/* Resto del contenido de la página */}
-          <div className="text-center mb-12">
-            <h1 className="mb-4 text-2xl font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, mollitia.</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
+      <div className="text-center mb-12">
+        <h1 className="mb-4 text-2xl font-bold">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga,
+          mollitia.
+        </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
 
-          <div className="bg-barraloop w-full h-[150px] rounded-md">
-
+      <div className="bg-barraloop md:flex w-full h-[350px] md:h-[150px] rounded-md flex flex-col md:flex-row justify-around">
+        <div className="flex justify-center items-center relative">
+          <img src="./images/eclipse.png" alt="" />
+          <div className="absolute inset-0 flex justify-center items-center -left-16">
+            <img className="w-auto h-auto" src="./images/desktop.png" alt="" />
           </div>
+          <div className="flex flex-col px-2">
+            <h2 className="font-extrabold text-xl">90+</h2>
+            <p className="py-2 font-medium">Clients</p>
+          </div>
+        </div>
+        <div className="flex justify-center items-center relative">
+          <img src="./images/eclipse.png" alt="" />
+          <div className="absolute inset-0 flex justify-center items-center  -left-16">
+            <img className="w-auto h-auto" src="./images/desktop.png" alt="" />
+          </div>
+          <div className="flex flex-col px-2">
+            <h2 className="font-extrabold text-xl">90+</h2>
+            <p className="py-2 font-medium">Clients</p>
+          </div>
+        </div>
+        <div className="flex justify-center items-center relative">
+          <img src="./images/eclipse.png" alt="" />
+          <div className="absolute inset-0 flex justify-center items-center -left-16">
+            <img className="w-auto h-auto" src="./images/desktop.png" alt="" />
+          </div>
+          <div className="flex flex-col px-2">
+            <h2 className="font-extrabold text-xl">90+</h2>
+            <p className="py-2 font-medium">Clients</p>
+          </div>
+        </div>
+      </div>
     </main>
   );
 };

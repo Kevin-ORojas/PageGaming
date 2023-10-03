@@ -58,7 +58,7 @@ const Home = () => {
               src="./images/img1.jpg"
               alt=""
             />
-            <p className="mt-4 text-white text-center font-bold">
+            <p className="md:mt-4 p-4 text-white text-center font-bold ">
               <i className="bx bxs-hot mr-2"></i>
               40 follower
             </p>
@@ -69,7 +69,7 @@ const Home = () => {
               src="./images/img2.jpg"
               alt=""
             />
-            <p className="mt-4 text-white text-center font-bold">
+            <p className="md:mt-4 p-4 text-white text-center font-bold">
               <i className="bx bxs-hot mr-2"></i>
               40 follower
             </p>
@@ -80,7 +80,7 @@ const Home = () => {
               src="./images/img3.jpg"
               alt=""
             />
-            <p className="mt-4 text-white text-center font-bold">
+            <p className="md:mt-4 p-4 text-white text-center font-bold">
               <i className="bx bxs-hot mr-2"></i>
               40 follower
             </p>
@@ -92,7 +92,7 @@ const Home = () => {
               alt=""
             />
 
-            <p className="mt-4 text-white text-center font-bold">
+            <p className="md:mt-4 p-4 text-white text-center font-bold">
               <i className="bx bxs-hot mr-2"></i>
               40 follower
             </p>
