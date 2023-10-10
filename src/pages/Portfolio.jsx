@@ -35,7 +35,7 @@ const Portfolio = () => {
   }, [location.pathname]);
 
   return (
-    <main className="bg-gradient-to-b p-10 text-white from-blue-900  to-blue-500 min-h-screen">
+    <main className="bg-gradient-to-b  text-white from-blue-900  to-blue-500 min-h-screen">
       <div className="text-black font-bold text-sm mb-4 flex justify-center items-center h-[20vh] ">
         {breadcrumbs.length > 0 && (
           <>
@@ -56,7 +56,7 @@ const Portfolio = () => {
         </p>
       </div>
 
-      <div className="md:flex md:flex-row justify-around h-[350px]">
+      <div className="md:flex md:flex-row justify-around h-[350px] p-10">
         <div className="bg-barraloop flex md:w-[650px] md:h-[150px] rounded-md  flex-col md:flex-row justify-around">
           <div className="flex justify-center items-center relative p-4">
             <img src="./images/eclipse.png" alt="" />
@@ -103,7 +103,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <article className="w-full md:h-auto mt-12">
+      <article className="w-full md:h-auto mt-12 p-10">
         <section className="grid md:grid-cols-2 md:justify-center md:items-center gap-4">
           <div>
             <img
@@ -144,7 +144,7 @@ const Portfolio = () => {
         </section>
       </article>
 
-      <article className="md:grid md:grid-cols-2 md:gap-8">
+      <article className="md:grid md:grid-cols-2 md:gap-8 p-10">
         <section className="flex flex-col  justify-center items-center text-xl font-bold py-4 ">
           <div className="p-4 text-white w-full flex flex-col justify-center items-center ">
             <h1 className="text-left py-4 md:text-3xl leading-8 p-2 ">
@@ -179,7 +179,7 @@ const Portfolio = () => {
         </section>
       </article>
 
-      <section className="w-full h-[650px] md:h-450px mt-20">
+      <section className="w-full h-[650px] md:h-450px mt-20 p-10">
         <article className="text-white md:grid  md:grid-cols-2 justify-center items-center gap-4">
           <div className="flex justify-between items-center ">
             <img
@@ -209,7 +209,7 @@ const Portfolio = () => {
         </article>
       </section>
 
-      <article className="md:grid md:grid-cols-2 md:gap-8  col-reverse">
+      <article className="md:grid md:grid-cols-2 md:gap-8  col-reverse p-10">
         <section className="flex flex-col  justify-center items-center text-xl font-bold py-4 ">
           <div className="p-4 text-white w-full flex flex-col justify-center items-center ">
             <h1 className="text-left py-4 md:text-3xl leading-8 p-2 ">
@@ -245,14 +245,19 @@ const Portfolio = () => {
         </section>
       </article>
 
-      <article className="w-full h-[650px] mt-20">
-        <section className="bg-black w-full h-[650px]">
-          <div className="text-center">
-            <h2>Trusted by Thounsands of Happy Customer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugit voluptate fuga, amet necessitatibus magnam.</p>
+      <section className="">
+        <article className="bg-cardcolor text-white w-full h-[650px]">
+          
+          <div className="p-4 text-center">
+            <h2 className="mt-10 text-4xl">Trusted by Thounsands of Happy Customer</h2>
+            <h4 className="font-bold mt-12 ">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+              quisquam molestiae rem veniam ut quos voluptas modi inventore ex
+              in.
+            </h4>
           </div>
-        </section>
-      </article>
+        </article>
+      </section>
     </main>
   );
 };
