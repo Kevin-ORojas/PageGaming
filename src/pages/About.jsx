@@ -127,7 +127,7 @@ const About = () => {
         </article>
       </section>
 
-      <section className="w-full h-[950px] md:h-450px mt-20">
+      <section className="">
         <article className="bg-cardcolor text-white md:grid  md:grid-cols-2 justify-center items-center gap-4 ">
           <div className="flex justify-center items-center">
             <img

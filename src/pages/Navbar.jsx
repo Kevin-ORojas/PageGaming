@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-black z-50 sticky top-0 w-full flex justify-between md:justify-around p-4 px-6 relative items-center">
+    <header className="bg-black z-50 sticky top-0 w-full flex justify-between md:justify-around px-6 relative items-center">
       <img className="w-14" src="./images/gamecolsole.png " alt="" />
 
       <i
