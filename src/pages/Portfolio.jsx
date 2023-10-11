@@ -245,17 +245,68 @@ const Portfolio = () => {
         </section>
       </article>
 
-      <section className="">
-        <article className="bg-cardcolor text-white w-full h-[650px]">
-          
-          <div className="p-4 text-center">
-            <h2 className="mt-10 text-4xl">Trusted by Thounsands of Happy Customer</h2>
+      <section className="bg-black text-white w-full">
+        <article className="flex justify-center items-center flex-col">
+          <div className="p-4 text-center h-[350px] md:w-1/2">
+            <h2 className="mt-10 text-4xl">
+              Trusted by Thounsands of Happy Customer
+            </h2>
             <h4 className="font-bold mt-12 ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
               quisquam molestiae rem veniam ut quos voluptas modi inventore ex
               in.
             </h4>
           </div>
+
+          <article className=" flex justify-center items-center gap-10 p-10 w-full flex-wrap">
+            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
+              <div className="flex justify-around mb-2">
+                <p>icon</p>
+                <h2>text</h2>
+                <p>text</p>
+                <p>4.5</p>
+              </div>
+              <div>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, expedita. Consequatur est eligendi iure impedit illo
+                  doloremque quam quasi qui.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
+              <div className="flex justify-around mb-2">
+                <p>icon</p>
+                <h2>text</h2>
+                <p>text</p>
+                <p>4.5</p>
+              </div>
+              <div>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, expedita. Consequatur est eligendi iure impedit illo
+                  doloremque quam quasi qui.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
+              <div className="flex justify-around mb-2">
+                <p>icon</p>
+                <h2>text</h2>
+                <p>text</p>
+                <p>4.5</p>
+              </div>
+              <div>
+                <p className="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, expedita. Consequatur est eligendi iure impedit illo
+                  doloremque quam quasi qui.
+                </p>
+              </div>
+            </div>
+          </article>
         </article>
       </section>
     </main>
