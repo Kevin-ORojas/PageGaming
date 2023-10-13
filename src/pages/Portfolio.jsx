@@ -260,13 +260,33 @@ const Portfolio = () => {
 
           <article className=" flex justify-center items-center gap-10 p-10 w-full flex-wrap">
             <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
-              <div className="flex justify-around mb-2">
-                <p>icon</p>
-                <h2>text</h2>
-                <p>text</p>
-                <p>4.5</p>
+              <div className="flex justify-evenly mb-2">
+                <img className="rounded-full" src="./images/back1.jpg" alt="" />
+                <div className="flex flex-col">
+                  <h2>Viezn Robert</h2>
+                  <p>Wasar, Poland</p>
+                </div>
+                <p className="flex items-center gap-2">4.5 <span className="text-sm">⭐</span></p>
               </div>
-              <div>
+              <div className="mt-4">
+                <p className="text-sm ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, expedita. Consequatur est eligendi iure impedit illo
+                  doloremque quam quasi qui.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
+              <div className="flex justify-around mb-2">
+                <img className="rounded-full" src="./images/back1.jpg" alt="" />
+                <div className="flex flex-col">
+                  <h2>Viezn Robert</h2>
+                  <p>Wasar, Poland</p>
+                </div>
+                <p className="flex items-center gap-2">4.5 <span className="text-sm">⭐</span></p>
+              </div>
+              <div className="mt-4">
                 <p className="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aperiam, expedita. Consequatur est eligendi iure impedit illo
@@ -277,28 +297,14 @@ const Portfolio = () => {
 
             <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
               <div className="flex justify-around mb-2">
-                <p>icon</p>
-                <h2>text</h2>
-                <p>text</p>
-                <p>4.5</p>
+                <img className="rounded-full" src="./images/back1.jpg" alt="" />
+                <div className="flex flex-col">
+                  <h2>Viezn Robert</h2>
+                  <p>Wasar, Poland</p>
+                </div>
+                <p className="flex items-center gap-2">4.5 <span className="text-sm">⭐</span></p>
               </div>
-              <div>
-                <p className="text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam, expedita. Consequatur est eligendi iure impedit illo
-                  doloremque quam quasi qui.
-                </p>
-              </div>
-            </div>
-
-            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
-              <div className="flex justify-around mb-2">
-                <p>icon</p>
-                <h2>text</h2>
-                <p>text</p>
-                <p>4.5</p>
-              </div>
-              <div>
+              <div className="mt-4">
                 <p className="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aperiam, expedita. Consequatur est eligendi iure impedit illo
