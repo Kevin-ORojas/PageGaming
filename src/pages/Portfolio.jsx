@@ -179,7 +179,7 @@ const Portfolio = () => {
         </section>
       </article>
 
-      <section className="w-full h-[650px] md:h-450px mt-20 p-10">
+      <section className="w-full md:h-450px mt-20 p-10">
         <article className="text-white md:grid  md:grid-cols-2 justify-center items-center gap-4">
           <div className="flex justify-between items-center ">
             <img
@@ -245,7 +245,7 @@ const Portfolio = () => {
         </section>
       </article>
 
-      <section className="bg-black text-white w-full">
+      <section className="bg-barraloop text-white w-full">
         <article className="flex justify-center items-center flex-col">
           <div className="p-4 text-center h-[350px] md:w-1/2">
             <h2 className="mt-10 text-4xl">
@@ -259,7 +259,7 @@ const Portfolio = () => {
           </div>
 
           <article className=" flex justify-center items-center gap-10 p-10 w-full flex-wrap">
-            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
+            <div className="w-[350px] h-[200px] border-2 border-red-200  p-2">
               <div className="flex justify-evenly mb-2">
                 <img className="rounded-full" src="./images/back1.jpg" alt="" />
                 <div className="flex flex-col">
@@ -277,7 +277,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
+            <div className="w-[350px] h-[200px] border-2 border-red-200 p-2">
               <div className="flex justify-around mb-2">
                 <img className="rounded-full" src="./images/back1.jpg" alt="" />
                 <div className="flex flex-col">
@@ -295,7 +295,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className="w-[350px] h-[200px] border-2 border-red-200 bg-violet-600 p-2">
+            <div className="w-[350px] h-[200px] border-2 border-red-200  p-2">
               <div className="flex justify-around mb-2">
                 <img className="rounded-full" src="./images/back1.jpg" alt="" />
                 <div className="flex flex-col">
@@ -315,6 +315,76 @@ const Portfolio = () => {
           </article>
         </article>
       </section>
+      <section className="w-full md:h-[450px] p-4">
+        <article className="flex flex-col items-center justify-center  gap-2">
+          <div className="my-8 text-center text-white font-semibold text-xl md:text-2xl">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic.</p>
+          </div>
+          <div className="border-1 bg-barraloop rounded-xl flex-shrink-0 w-full md:w-[750px] h-[170px] lg:w-[650] md: py-4 pl-2 ">
+            <div
+              className="text-center md:flex md:justify-center md:items-center md:mt-4
+             "
+            >
+              <div>
+                <h2 className="text-white text-left pl-4 md:text-2xl">
+                  Stay in start loop
+                </h2>
+                <p className="text-white text-left pl-4 text-sm md:text-md">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
+                  suscipit.
+                </p>
+              </div>
+              <div className="md:w-[100%] p-4 md:py-4 flex justify-center items-center">
+                <input
+                  type="text"
+                  placeholder="Enter email address"
+                  className="rounded-md w-full pr-[2rem] bg-transparent border placeholder-[10px] h-[40px] text-[14px] text-center font-semibold" // Agregar espacio a la derecha para el botón
+                />
+                <button className="top-[73px] md:top-[50px] left-38 right-0 h-[2.4rem] w-[5rem] md:w-30 md:h-10 rounded-md bg-colorCnt  text-white font-bold text-[10px] md:text-[12px]">
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer className="bg-black w-full h-[350px] text-white">
+        <section className="grid grid-cols-3 justify-center items-center h-full p-4">
+          <div className="">
+            <h2 className="font-bold text-xl py-2">logo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              tenetur!
+            </p>
+            <span>@logo</span>
+          </div>
+
+          <div className="flex flex-col justify-center items-center ">
+            <h2 className="font-bold text-xl py-2">About us</h2>
+            <span>Zeux</span>
+            <span>Porfolio</span>
+            <span>Careers</span>
+            <span>Contac Us</span>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-bold py-2">logo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              tenetur!
+            </p>
+
+            <p>+988 89097 890</p>
+          </div>
+          <div className="col-span-4 border-b border-gray-100 "></div>
+          <div></div>
+          <h3 className="text-center w-full">
+            &copy;Nozdov all right {new Date().getFullYear()}
+          </h3>
+        </section>
+      </footer>
     </main>
   );
 };
