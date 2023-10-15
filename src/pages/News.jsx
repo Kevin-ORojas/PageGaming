@@ -32,7 +32,7 @@ const News = () => {
   }, [location.pathname]);
 
   return (
-    <main className="h-screen bg-gradient-to-tl from-black via-blue-700 to-blue-500">
+    <main className="min-h-screen bg-gradient-to-tl from-black via-blue-700 to-blue-500">
       <div className="text-black font-bold text-sm mb-4 flex justify-center items-center h-[20vh] ">
         {breadcrumbs.length > 0 && (
           <>
@@ -42,7 +42,7 @@ const News = () => {
         )}
         {breadcrumbs}
       </div>
-      <section>
+      <section className="w-full min-h-[300px]">
         <article className="text-center">
           <h1 className="mb-4 text-xl font-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius
@@ -51,10 +51,37 @@ const News = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
           <div className="mt-10 w-full flex justify-center items-center gap-2 ">
-          <i  className='bx bx-search-alt-2'></i><input className="w-[250px] placeholder:text-white placeholder:p-2 bg-[#1C140F] h-8 rounded-md b" type="text" placeholder="Search"   />
+            <i className="bx bx-search-alt-2"></i>
+            <input
+              className="w-[250px] placeholder:text-white placeholder:p-2 bg-[#1C140F] h-8 rounded-md b"
+              type="text"
+              placeholder="Search"
+            />
           </div>
         </article>
       </section>
+
+      <article className="grid md:grid-cols-2 justify-center items-center w-full p-10 gap-6 text-white ">
+        <section className="flex justify-center items-center flex-col">
+          <img className="rounded-md" src="./images/sectionimg.png" alt="" />
+
+          <h2 className="text-left px-20 text-md leading-8 p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            veniam vitae voluptatem, assumenda minus enim. Praesentium nesciunt
+            dolor ab explicabo!
+          </h2>
+        </section>
+
+        <section className="flex justify-center items-center flex-col">
+          <img className="rounded-md" src="./images/sectionimg.png" alt="" />
+          <h2 className="text-left px-20 text-md leading-8 p-2">
+         
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            veniam vitae voluptatem, assumenda minus enim. Praesentium nesciunt
+            dolor ab explicabo!
+          </h2>
+        </section>
+      </article>
     </main>
   );
 };
