@@ -49,6 +49,10 @@ const News = () => {
             autem, quo qui vero recusandae!
           </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div className="mt-10 w-full flex justify-center items-center gap-2 ">
+          <i  className='bx bx-search-alt-2'></i><input className="w-[250px] placeholder:text-white placeholder:p-2 bg-[#1C140F] h-8 rounded-md b" type="text" placeholder="Search"   />
+          </div>
         </article>
       </section>
     </main>
