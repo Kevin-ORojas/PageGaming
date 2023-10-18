@@ -32,7 +32,7 @@ const News = () => {
   }, [location.pathname]);
 
   return (
-    <main className="min-h-screen bg-gradient-to-tl from-black via-blue-700 to-blue-500">
+    <main className="min-h-screen bg-gradient-to-tl from-black via-blue-700 to-blue-500 p-10">
       <div className="text-black font-bold text-sm mb-4 flex justify-center items-center h-[20vh] ">
         {breadcrumbs.length > 0 && (
           <>
@@ -61,9 +61,13 @@ const News = () => {
         </article>
       </section>
 
-      <article className="grid md:grid-cols-2 justify-center items-center w-full p-10 gap-6 text-white ">
+      <article className="grid md:grid-cols-2  w-full p-10 gap-6 text-white ">
         <section className="flex justify-center items-center flex-col">
-          <img className="rounded-md" src="./images/sectionimg.png" alt="" />
+          <img
+            className="rounded-xl w-[350px] h-[150px]"
+            src="./images/sectionimg.png"
+            alt=""
+          />
 
           <h2 className="text-left px-20 text-md leading-8 p-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
@@ -72,14 +76,24 @@ const News = () => {
           </h2>
         </section>
 
-        <section className="flex justify-center items-center flex-col">
-          <img className="rounded-md" src="./images/sectionimg.png" alt="" />
-          <h2 className="text-left px-20 text-md leading-8 p-2">
-         
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            veniam vitae voluptatem, assumenda minus enim. Praesentium nesciunt
-            dolor ab explicabo!
-          </h2>
+        <section className="">
+          <div className="flex">
+            <img
+              className="rounded-md w-[300px] h-[150px]"
+              src="./images/layer1.png"
+              alt=""
+            />
+            <div className="text-left text-md leading-8 pl-2 flex-inline">
+              <p className="bg-orange-400 w-[100px] text-center rounded-md flex justify-ar">
+                John Smash
+              </p>
+             
+              <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae
+              </h2>
+            </div>
+          </div>
         </section>
       </article>
     </main>
