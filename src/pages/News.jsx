@@ -76,14 +76,14 @@ const News = () => {
           </h2>
         </section>
 
-        <section className="">
-          <div className="flex">
+        <section className="md:flex">
+          <div className="md:flex">
             <img
               className="rounded-md w-[300px] h-[150px]"
               src="./images/layer1.png"
               alt=""
             />
-            <div className="text-left text-md leading-8 pl-2 flex flex-col">
+            <div className="text-left text-md leading-8 pl-2 flex flex-col mt-4">
               <div className="flex justify-around">
                 <p className="bg-orange-400 w-[100px] h-10 text-center rounded-md">
                   John Smash
@@ -114,14 +114,14 @@ const News = () => {
           </h2>
         </section>
 
-        <section className="">
-          <div className="flex">
+        <section className="md:flex">
+          <div className="md:flex" >
             <img
               className="rounded-md w-[300px] h-[150px]"
               src="./images/layer2.png"
               alt=""
             />
-            <div className="text-left text-md leading-8 pl-2 flex flex-col">
+            <div className="text-left text-md leading-8 pl-2 flex flex-col mt-4">
               <div className="flex justify-around">
                 <p className="bg-orange-400 w-[100px] h-10 text-center rounded-md">
                   John Smash
@@ -152,14 +152,14 @@ const News = () => {
           </h2>
         </section>
 
-        <section className="">
-          <div className="flex">
+        <section className="md:flex">
+          <div className="md:flex" >
             <img
               className="rounded-md w-[300px] h-[150px]"
               src="./images/layer3.png"
               alt=""
             />
-            <div className="text-left text-md leading-8 pl-2 flex flex-col">
+            <div className="text-left text-md leading-8 pl-2 flex flex-col mt-4">
               <div className="flex justify-around">
                 <p className="bg-orange-400 w-[100px] h-10 text-center rounded-md">
                   John Smash
@@ -190,14 +190,14 @@ const News = () => {
           </h2>
         </section>
 
-        <section className="">
-          <div className="flex">
+        <section className="md:flex">
+          <div className="md:flex">
             <img
               className="rounded-md w-[300px] h-[150px]"
               src="./images/layer4.png"
               alt=""
             />
-            <div className="text-left text-md leading-8 pl-2 flex flex-col">
+            <div className="text-left text-md leading-8 pl-2 flex flex-col mt-4">
               <div className="flex justify-around">
                 <p className="bg-orange-400 w-[100px] h-10 text-center rounded-md">
                   John Smash
